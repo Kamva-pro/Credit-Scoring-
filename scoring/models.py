@@ -19,7 +19,6 @@ class Business(models.Model):
     payment_method = models.CharField(max_length=20, choices=PAYMENT_METHODS)
     business_age = models.IntegerField()
     missed_payments = models.BooleanField(default=False)
-    credit_score = models.IntegerField(default=0)  # Score calculated later
-
+    credit_score = models.IntegerField(default=0) 
     def __str__(self):
         return f"{self.business_type} - Score: {self.credit_score}"

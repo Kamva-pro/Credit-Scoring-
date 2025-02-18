@@ -30,7 +30,6 @@ const BusinessForm = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      {/* Form fields for business_type, monthly_revenue, etc. */}
       <button type="submit">Submit</button>
     </form>
   );
