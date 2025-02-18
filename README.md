@@ -21,10 +21,10 @@ Database: SQLite for reliable data storage.
 ## Getting Started:
 
 1. Clone the Repository:
-git clone https://github.com/kamva-pro/Credit-Scoring-.git
+- git clone https://github.com/kamva-pro/Credit-Scoring-.git
 
 2. Navigate to the Project Directory:
-cd Credit-Scoring-
+- cd Credit-Scoring-
 
 3. Set Up the Backend:
 Install Dependencies:
