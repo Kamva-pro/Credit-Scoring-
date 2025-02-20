@@ -27,14 +27,12 @@ Database: SQLite for reliable data storage.
 - cd Credit-Scoring-
 
 3. Set Up the Backend:
-Install Dependencies:
-- pip install -r backend/requirements.txt
 
 Apply Migrations:
-- python3 backend/manage.py migrate
+- python3 manage.py migrate
 
 Run the server:
-- python3 backend/manage.py runserver
+- python3 manage.py runserver
 
 4. Setup the frontend:
 Navigate to the frontend directory:
